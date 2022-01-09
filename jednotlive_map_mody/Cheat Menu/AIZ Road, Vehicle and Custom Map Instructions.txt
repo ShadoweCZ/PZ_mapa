@@ -1,0 +1,107 @@
+Cheat Menu AIZ Editor for Roads, Vehicle Spawns and Adding Custom Maps
+
+This is an edited version of ethanwdp's Cheat Menu mod. 
+Its used to create roads and vehicle spawn zones for the AIZ Enhanced 2 mod. 
+**Disable ethanwdp's original Cheat Menu mod, while using this one** 
+
+Please see this document here on how to use it and how to add custom maps to AIZ Enhanced: 
+
+This document has 3 sections:
+
+1. How to Add new Connecting Roads to AIZ Enhanced 2
+2. How to Add new Vehicle Spawns to AIZ Enhanced 2
+3. How to Add new Custom Maps to AIZ Enhanced 2
+4. Moving/Removing maps already within AIZ Enhanced 2
+
+For 1 and 2, you will need to enable 'Cheat Menu AIZ Editor' mod. This is an edited version of ethanwdp's 'Cheat Menu' mod. 
+You will need to disable the regular Cheat Menu while you use this one. Use an editor like Notepad++ that can replace text. 
+
+
+1. How to Add new Connecting Roads to AIZ Enhanced 2
+  Start a new game with 'Cheat Menu AIZ Editor' mod activated.
+	 i. In game, Right click, and select 'Cheat Menu'->'Toggle Terraforming/Delete'->'Terraforming'->'On'
+	 ii. Right click, and select 'Cheat Menu'->'Toggle Terraforming/Delete'->'Terraforming'->'Roads...'->'Asphalt Road'
+	 iii. Use the mouse and keep the 'X' key pressed to brush/draw the road tiles onto the maps
+	 iv. After drawing the road/area onto the map, wait till the player has the text "world age ... days" above their head, 
+	 which it will show periodically, meaning it is dumping information to the console.txt. Then alt tab to open the console.txt for 
+	 Project Zomboid, scroll to the bottom which will have the lines:
+	  GHKPT["1080310074"] = true; 
+	  GHKPT["1080310073"] = true; 
+	  GHKPT["1080210074"] = true;
+	  etc... 
+	  etc... 
+	  
+	  Copy everything from the first 'G' downwards , NOT the number before it. If you draw multiple roads/areas in 1 session, these values will 
+	  concatenate as you keep adding roads/areas, so you can copy everything at the end of the session. 
+	
+    v. Paste the contents of that document into the bottom of the file and save: 
+	  \AIZ Enhanced2\media\lua\shared\PresetTiles_for_Allin_Mappack.lua
+	
+	vii. To test, start a new game, and go to the area(s) you added the roads. 
+  
+2. How to Add new Vehicle Spawns to AIZ Enhanced 2 
+	Start a new game with 'Cheat Menu AIZ Editor' mod activated.
+	 i. In game, Go to where you would like to add a vehicle spawn zone (Parking Stall zone), and just click '~' key. 
+	 ii. Once you have added all the parking stalls, alt-tab out of the game and go to your Project Zomboid console.txt file. 
+	 Go to the bottom of the file, and copy all the entries: 
+	 { name = "", type = "ParkingStall", x = '10803', y = '10074', z = '0', width = 15, height = 15}, 
+	{ name = "", type = "ParkingStall", x = '10915', y = '11861', z = '0', width = 15, height = 15}, 
+	  etc... 
+	  etc... 
+     iii. Paste the contents of that document into the bottom of the file, just before the final "}" character and save: 
+	 \AIZ Enhanced2\media\maps\Kentucky\objects.lua 
+	  
+	  iv. To test, start a new game, and go to the area(s) where you added the vehicles. Note: There is randomness to how Project Zomboid 
+	  spawns vehicles, so sometimes you may not see a vehicle, sometimes, one, sometimes more. Notice, the vehicles all face either north or south,
+	  have not worked out why that is.
+
+3. How to Add new Custom Maps to AIZ Enhanced 2
+ Many maps added to AIZ Enhanced 2, stayed at their default coordinates, many though needed to be moved to fit in with the rest of the maps (vanilla included), 
+ to not overlap buildings already existing. 
+ 
+ i. When you want to add a new custom map ( everything under /Custom Map Mod/media/maps/Custom Map), you need to determine if it will overlap an area with buildings already, etc..
+ or other areas that might be important in the future. AIZ Enhanced 2 has all map lot files combined under \AIZ Enhanced2\media\maps\Kentucky\.  
+ A map tool like Cartozed 1.2 can be helpful. See www.theindiestone.com 
+ 
+ ii. All map lots/files under '/Custom Map Mod/media/maps/Custom Map' (.bin, .lotheader, .lotpack) go into the folder:
+ \AIZ Enhanced2\media\maps\Kentucky\
+ iii. The other map files: objects.lua, spawnpoints.lua and map.info can stay in the 'Custom Map' folder, which then goes under 
+ \AIZ Enhanced2\media\maps\
+ iv. Then under \AIZ Enhanced2\media\maps\Custom Map, remove the spawnregions.lua file if there is one. Then edit map.info to change the line 
+ 'lots=Muldraugh, KY' 
+ to
+ 'lots=Kentucky' 
+ and save. 
+ 
+ You are done, and can test now, if you can just place the 'Custom Map' at it's default coordinates. If you need to shift the map, you need to follow some more steps:
+ 
+ v. If you need to shift the map to different coordinates, say it is a 2 cell map, from cells 32x20, 32x21, to 34x10,34x11 you will need to manually rename each file. This can be tedious for larger maps,
+ and you can use 'ren' command in windows with wild cards to make it a little easier, or use powershell scripts in windows (if you know how to code in that), or the Bulk Rename Utility 
+ https://www.bulkrenameutility.co.uk/Main_Intro.php , which looks powerful, but was too much for me to learn, so I stuck with manual renaming, or 'ren' command for larger maps. :-)
+ 
+ vi. You will need to edit the spawnpoints.lua file to reflect new spawnpoints. In (v.) above, say the spawn points were in the cell 32x20, you now want them to spawn in cell 24x10. So in spawnpoints.lua,
+all occurances of 'worldX = 32, worldY = 20', would change to 'worldX = 4 + 32, worldY = -10 + 20'. You can use notepad++ or similar to find/replace (on 'worldX =' and 'worldY =' respectively). 
+
+v. You will need to edit the objects.lua file to reflect new object coordinates. In (v.) above, the objects.lua coordinates have shifted +2 cells (2*300 squares) in x direction, 
+and -10 cells (-10*300 squares) in y direction. 
+So similar as in (vi.) above, you can do a find/replace on 'x =' and 'y =' respectively. This time you would get something like
+ { name = "", type = "DeepForest", x = (2*300) + 15644, y = (-10*300) + 6705, z = 0, width = 128, height = 91 }, etc... etc...
+
+So now you can test in Project Zomboid. 
+
+4. Moving/Removing maps already within AIZ Enhanced 2
+Maps that have not had their cells shifted to fit into AIZ Enhanced 2 are 'easier' to shift, but shifting maps are possible, based on the steps above. You should subscribe and download the original 
+map mod to compare. The caveat is that connecting roads in the lua: 
+\AIZ Enhanced2\media\lua\shared\PresetTiles_for_Allin_Mappack.lua 
+ may still persist connecting to that map. That can be cumbersome to remove, partly because that file is not commented adequately, and is like spaghetti.  
+ 
+ 
+ 
+ 
+ 
+	  
+	  
+
+ 
+
+

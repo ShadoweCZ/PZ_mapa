@@ -1,0 +1,110 @@
+name = Road & Rails Plus
+default = false
+defcol = 255,0,0,0
+
+//rails
+{
+	col = 190, 20, 20
+	sheetname = _railroad
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 60
+}
+
+//street
+{
+	col = 20, 20, 190
+	sheetname = _street_
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 7
+}
+
+//normaltree
+{
+	col = 25,25,25
+	sheetname = _trees
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+}
+
+//jumbotree
+{
+	col = 25,25,25
+	sheetname = jumbo
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+	pixelSize = 2
+}
+
+//walls
+{
+	col = 50,50,50
+	sheetname = walls
+	nameStart = true
+	objectPosMin = 1
+	objectPosMax = 100
+	//layerMin = 0
+	//layerMax = 0
+	priority = 40
+}
+//tilesand
+{
+	col = 50,50,50
+	sheetname = floors_exterior_tilesandstone
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 90
+}
+//tilesand
+{
+	col = 50,50,50
+	sheetname = floors_interior_carpet
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 90
+}
+//tilesand
+{
+	col = 50,50,50
+	sheetname = floors_interior_tilesandwood
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 90
+}
+//tilesand
+{
+	col = 50,50,50
+	sheetname = location_
+	objectPosMin = 1
+	objectPosMax = 8
+	layerMin = 0
+	layerMax = 0
+	priority = 0
+}
+
+//water
+{
+	col = 100,100,100
+	sheetname = _natural_
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 2
+	sheetMax = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 10
+}

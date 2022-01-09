@@ -1,0 +1,79 @@
+﻿name = Buildings (lvl 0) test
+default = false
+defcol = 255,0,0,0
+
+//walls
+{
+	col = 140,140,140
+	sheetname = walls
+	nameStart = true
+	objectPosMin = 1
+	layerMax = 0
+	priority = 100
+}
+
+{
+	col = 140,140,140
+	sheetname = industry_01
+	nameStart = true
+	tileIdMin = 0
+	tileIdMax = 3
+	objectPosMin = 1
+	layerMax = 0
+	priority = 100
+}
+{
+	col = 140,140,140
+	sheetname = industry_01
+	nameStart = true
+	tileIdMin = 8
+	tileIdMax = 11
+	objectPosMin = 1
+	layerMax = 0
+	priority = 100
+}
+
+{
+	col = 100,100,100
+	sheetname = business_bank
+	objectPosMin = 1
+	layerMax = 0
+	priority = 95
+}
+
+//fences
+{
+	col = 50,50,50
+	sheetname = fencing
+	nameStart = true
+	objectPosMin = 1
+	layerMax = 0
+	priority = 90
+}
+
+//doors
+{
+	col = 0,200,0
+	sheetname = doors
+	objectPosMin = 1
+	layerMax = 0
+	priority = 1000
+}
+
+//stairs
+{
+	col = 139,69,19
+	sheetname = stairs
+	objectPosMin = 1
+	layerMax = 0
+	priority = 1500
+}
+
+//windows
+{
+	col = 30,144,255
+	sheetname = _windows_
+	objectPosMin = 1
+	layerMax = 0
+	priority = 1000
+}

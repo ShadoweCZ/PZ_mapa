@@ -1,0 +1,66 @@
+﻿name = Heightmap
+default = false
+defcol = 255,0,0,0
+
+//normaltree
+{
+	col = 60,60,60
+	sheetname = _trees
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+}
+
+//jumbotree
+{
+	col = 60,60,60
+	sheetname = jumbo
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+	pixelSize = 2
+}
+
+//layers
+{
+	col = 30,30,30
+	layerMin = 0
+	objectPosMin = 2
+}
+
+{
+	col = 60,60,60
+	layerMin = 1
+}
+
+{
+	col = 90,90,90
+	layerMin = 2
+}
+
+{
+	col = 120,120,120
+	layerMin = 3
+}
+
+{
+	col = 150,150,150
+	layerMin = 4
+}
+
+{
+	col = 180,180,180
+	layerMin = 5
+}
+
+{
+	col = 210,210,210
+	layerMin = 6
+}
+
+{
+	col = 240,240,240
+	layerMin = 7
+}

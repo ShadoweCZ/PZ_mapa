@@ -1,0 +1,25 @@
+module Base
+{
+	
+    item AIZMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Main Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/maproads.png,
+    }
+	
+  
+
+item AIZA
+    {
+        Type				=			Normal,
+        DisplayName			=		    Astoria,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/astoria0.png,
+    }		
+
+}
+

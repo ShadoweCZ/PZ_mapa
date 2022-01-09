@@ -1,0 +1,34 @@
+name = Vegetation
+default = false
+defcol = 255,0,0,0
+
+//normaltree
+{
+	col = 38, 53, 22
+	sheetname = _trees
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+}
+
+//jumbotree
+{
+	col = 38, 53, 22
+	sheetname = jumbo
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+	pixelSize = 2
+}
+//vegetation
+{
+	col = 48, 73, 32
+	sheetname = vegetation
+	nameStart = true
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 50
+}

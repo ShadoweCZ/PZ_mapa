@@ -1,0 +1,4 @@
+RedValley - Population ~300
+<LINE> This is a small military village nortwest of Rosewood.
+<LINE>
+(V0.2). U=BTU

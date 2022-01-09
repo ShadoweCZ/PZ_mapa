@@ -1,0 +1,87 @@
+function SpawnPoints()
+return {
+  constructionworker = {
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 79, posY = 214, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 131, posY = 259, posZ = 3 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 284, posY = 103, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 270, posY = 177, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 171, posY = 203, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 159, posY = 218, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  21, posX = 20, posY = 76, posZ = 7 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 255, posY = 156, posZ = 2 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 92, posY = 190, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  22, posX = 62, posY = 241, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 167, posY = 125, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 168, posY = 236, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  24, posX = 18, posY = 163, posZ = 0 }
+  },
+  fireofficer = {
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 79, posY = 214, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 131, posY = 259, posZ = 3 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 284, posY = 103, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 270, posY = 177, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 171, posY = 203, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  21, posX = 20, posY = 76, posZ = 7 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 255, posY = 156, posZ = 2 },
+    { worldX = (-16) +  48, worldY = (34) +  22, posX = 62, posY = 241, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 167, posY = 125, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 168, posY = 236, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  24, posX = 18, posY = 163, posZ = 0 }
+  },
+  parkranger = {
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 79, posY = 214, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 131, posY = 259, posZ = 3 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 284, posY = 103, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 270, posY = 177, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 171, posY = 203, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  21, posX = 20, posY = 76, posZ = 7 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 255, posY = 156, posZ = 2 },
+    { worldX = (-16) +  48, worldY = (34) +  22, posX = 62, posY = 241, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 167, posY = 125, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 168, posY = 236, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  24, posX = 18, posY = 163, posZ = 0 }
+  },
+  policeofficer = {
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 79, posY = 214, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 131, posY = 259, posZ = 3 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 284, posY = 103, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 270, posY = 177, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 171, posY = 203, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  21, posX = 20, posY = 76, posZ = 7 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 255, posY = 156, posZ = 2 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 198, posY = 153, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  22, posX = 62, posY = 241, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 167, posY = 125, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 168, posY = 236, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  24, posX = 18, posY = 163, posZ = 0 }
+  },
+  securityguard = {
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 79, posY = 214, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 131, posY = 259, posZ = 3 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 284, posY = 103, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 270, posY = 177, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 171, posY = 203, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  21, posX = 20, posY = 76, posZ = 7 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 255, posY = 156, posZ = 2 },
+    { worldX = (-16) +  48, worldY = (34) +  22, posX = 62, posY = 241, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 167, posY = 125, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 168, posY = 236, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  24, posX = 18, posY = 163, posZ = 0 }
+  },
+  unemployed = {
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 79, posY = 214, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 131, posY = 259, posZ = 3 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 284, posY = 103, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 270, posY = 177, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 171, posY = 203, posZ = 1 },
+    { worldX = (-16) +  47, worldY = (34) +  21, posX = 178, posY = 274, posZ = 1 },
+    { worldX = (-16) +  48, worldY = (34) +  21, posX = 20, posY = 76, posZ = 7 },
+    { worldX = (-16) +  47, worldY = (34) +  22, posX = 255, posY = 156, posZ = 2 },
+    { worldX = (-16) +  48, worldY = (34) +  22, posX = 62, posY = 241, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 167, posY = 125, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 45, posY = 227, posZ = 0 },
+    { worldX = (-16) +  47, worldY = (34) +  24, posX = 168, posY = 236, posZ = 0 },
+    { worldX = (-16) +  48, worldY = (34) +  24, posX = 18, posY = 163, posZ = 0 }
+  }
+}
+end

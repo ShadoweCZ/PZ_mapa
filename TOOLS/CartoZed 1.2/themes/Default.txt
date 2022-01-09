@@ -1,0 +1,196 @@
+name = Default
+default = true
+defcol = 255,0,0,0
+
+//normaltree
+{
+	col = 38, 53, 22
+	sheetname = _trees
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+}
+
+//jumbotree
+{
+	col = 38, 53, 22
+	sheetname = jumbo
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 100
+	pixelSize = 2
+}
+//vegetation
+{
+	col = 48, 73, 32
+	sheetname = vegetation
+	nameStart = true
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 50
+}
+//rails
+{
+	col = 73, 58, 43
+	sheetname = _railroad
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 60
+}
+//walls
+{
+	col = 93, 44, 39
+	sheetname = walls
+	nameStart = true
+	objectPosMin = 1
+	objectPosMax = 100
+	//layerMin = 0
+	//layerMax = 0
+	priority = 40
+}
+//tilesand
+{
+	col = 132, 81, 76
+	sheetname = floors_exterior_tilesandstone
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 90
+}
+//tilesand
+{
+	col = 132, 81, 76
+	sheetname = floors_interior_carpet
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 90
+}
+//tilesand
+{
+	col = 132, 81, 76
+	sheetname = floors_interior_tilesandwood
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 90
+}
+//tilesand
+{
+	col = 132, 81, 76
+	sheetname = location_
+	objectPosMin = 1
+	objectPosMax = 8
+	layerMin = 0
+	layerMax = 0
+	priority = 0
+}
+//water
+{
+	col = 108, 127, 131
+	sheetname = _natural_
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 2
+	sheetMax = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 10
+}
+//sand
+{
+	col = 217, 207, 183
+	sheetname = _natural_
+	tileIdMin = 0
+	tileIdMax = 15
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 1
+	sheetMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 5
+}
+//darkgrass
+{
+	col = 75, 88, 27
+	sheetname = _natural_
+	tileIdMin = 16
+	tileIdMax = 31
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 1
+	sheetMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 5
+}
+//medgrass
+{
+	col = 97, 103, 36
+	sheetname = _natural_
+	tileIdMin = 32
+	tileIdMax = 47
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 1
+	sheetMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 5
+}
+//litegrass
+{
+	col = 127, 120, 45
+	sheetname = _natural_
+	tileIdMin = 48
+	tileIdMax = 63
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 1
+	sheetMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 5
+}
+//dirt
+{
+	col = 91, 63, 21
+	sheetname = _natural_
+	tileIdMin = 64
+	tileIdMax = 79
+	objectPosMin = 1
+	objectPosMax = 1
+	sheetMin = 1
+	sheetMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 5
+}
+//street
+{
+	col = 128, 128, 128
+	sheetname = _street_
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 7
+}
+//Corn
+{
+	col = 218,165,32
+	sheetname = vegetation_farm
+	objectPosMin = 1
+	objectPosMax = 5
+	layerMin = 0
+	layerMax = 0
+	priority = 500
+}

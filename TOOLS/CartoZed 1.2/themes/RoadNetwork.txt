@@ -1,0 +1,24 @@
+name = Road & Rails
+default = false
+defcol = 255,0,0,0
+
+//rails
+{
+	col = 190, 20, 20
+	sheetname = _railroad
+	objectPosMin = 2
+	layerMin = 0
+	layerMax = 0
+	priority = 60
+}
+
+//street
+{
+	col = 20, 20, 190
+	sheetname = _street_
+	objectPosMin = 1
+	objectPosMax = 1
+	layerMin = 0
+	layerMax = 0
+	priority = 7
+}

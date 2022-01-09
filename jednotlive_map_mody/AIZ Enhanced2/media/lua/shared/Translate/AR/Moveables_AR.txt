@@ -1,0 +1,13 @@
+Moveables_ES = {	
+	Crafted_Reloading_Table = "Banco de Recarga",
+	Mounted_Cow_Trophy = "Trofeo de pared (Vaca)",
+	Mounted_Bear_Trophy = "Trofeo de pared (Oso)",
+	Mounted_Boar_Trophy = "Trofeo de pared (Jabalí)",
+	Mounted_Bison_Trophy = "Trofeo de pared (Bisonte)",
+	Mounted_Moose_Trophy = "Trofeo de pared (Alce)",
+	Ball_Wilson = "Wilson",
+	Military_Crate = "Caja militar",
+	Animal_Cow_Rug = "Alfombra de cuero vacuno",
+	Wood_Fur_Frame = "Curtidor",
+	Army_Barrel = "Barril militar",
+}

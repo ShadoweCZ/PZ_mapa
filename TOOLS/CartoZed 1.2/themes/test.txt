@@ -1,0 +1,9 @@
+name = The Matrix
+default = false
+defcol = 255,0,0,0
+
+// full options for a color rule:
+{
+	col = 0,255,0
+	sheetname = tree
+}

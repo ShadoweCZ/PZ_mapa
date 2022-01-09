@@ -1,0 +1,11 @@
+module Base
+{
+	item BallincoolinMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Ballincoolin Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/BallincoolinMap.png,
+    }
+}

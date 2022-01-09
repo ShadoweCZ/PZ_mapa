@@ -1,0 +1,4 @@
+Items_ES = {
+
+    DisplayNameLobii_City_Map = "Lobii City Map",
+}

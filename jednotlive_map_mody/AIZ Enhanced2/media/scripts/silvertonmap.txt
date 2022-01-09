@@ -1,0 +1,14 @@
+module Base
+{
+	
+    item SilvertonMap
+    {
+        Type				=			Normal,
+        DisplayName			=		    Silverton Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           media/ui/LootableMaps/silvertonlootmap.png,
+    }
+
+}
+

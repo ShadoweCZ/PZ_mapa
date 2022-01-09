@@ -1,0 +1,57 @@
+﻿name = Electrics
+default = false
+defcol = 255,0,0,0
+
+//cooking
+{
+	col = 255,0,0
+	sheetname = appliances_cooking
+	objectPosMin = 2
+	priority = 100
+	pixelSize = 2
+}
+
+//radio
+{
+	col = 0,255,0
+	sheetname = appliances_radio
+	objectPosMin = 2
+	priority = 100
+	pixelSize = 2
+}
+
+//tv
+{
+	col = 0,0,255
+	sheetname = appliances_television
+	objectPosMin = 2
+	priority = 100
+	pixelSize = 2
+}
+
+//fridges
+{
+	col = 255,0,255
+	sheetname = appliances_refridgeration
+	objectPosMin = 2
+	priority = 100
+	pixelSize = 2
+}
+
+//lights
+{
+	col = 255,255,205
+	sheetname = lighting_outdoor
+	objectPosMin = 2
+	priority = 100
+	pixelSize = 2
+}
+
+//cooking
+{
+	col = 255,255,255
+	sheetname = appliances_misc
+	objectPosMin = 2
+	priority = 1000
+	pixelSize = 2
+}
